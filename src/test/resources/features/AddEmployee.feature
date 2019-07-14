@@ -22,7 +22,7 @@ Examples:
 |Tom     |D    |PUTER |2003195   |Cube Office |
 
 
-@smoke
+@smoke3
 Scenario: Add Employee and Create Login Deatils
 When User provide username,middle name,lastname and location
 And User click on create login details

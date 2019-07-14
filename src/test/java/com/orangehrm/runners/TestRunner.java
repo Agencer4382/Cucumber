@@ -8,10 +8,10 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/features"
 ,glue={"com/orangehrm/steps"}
-//,dryRun=true
+,dryRun=true
 ,monochrome=true
 ,plugin= {"pretty","html:target/cucumber-reports","junit:target/cucumber-result.xml","json:target/cucumber.json"}
-,tags= {"@temp"}
+,tags= {"@smoke7"}
 )
 public class TestRunner {
 
